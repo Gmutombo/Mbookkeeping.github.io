@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustave Mutombo, MBA | Expert Bookkeeping & Financial Reporting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 384px;
+            }
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #003F5C, #7A5195);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .kpi-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            border-left: 5px solid #FFA600;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center my-12 md:my-16">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight gradient-text">
+                Transforming Financial Chaos into Clarity & Growth
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                Gustave "Gus" Mutombo, MBA | Expert bookkeeping and financial reporting for ambitious non-profits and for-profit businesses.
+            </p>
+        </header>
+
+        <section id="overview" class="mb-16 md:mb-24">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                <div class="kpi-card">
+                    <div class="text-5xl font-extrabold text-[#003F5C]">10+</div>
+                    <div class="mt-2 text-lg font-medium text-slate-800">Years of Experience</div>
+                    <p class="text-sm text-slate-500 mt-1">Across diverse industries, from non-profits to Fortune 500 companies.</p>
+                </div>
+                <div class="kpi-card">
+                    <div class="text-5xl font-extrabold text-[#7A5195]">MBA</div>
+                    <div class="mt-2 text-lg font-medium text-slate-800">Finance Concentration</div>
+                    <p class="text-sm text-slate-500 mt-1">Supplemented with an M.S. in Data Science for deeper analytical insights.</p>
+                </div>
+                <div class="kpi-card">
+                    <div class="text-5xl font-extrabold text-[#EF5675]">Dual</div>
+                    <div class="mt-2 text-lg font-medium text-slate-800">Sector Specialist</div>
+                    <p class="text-sm text-slate-500 mt-1">Delivering tailored financial strategies for both mission-driven and profit-focused organizations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="mb-16 md:mb-24 p-6 md:p-10 bg-white rounded-2xl shadow-lg">
+            <h2 class="text-3xl font-bold text-center mb-10 text-slate-800">A Foundation for Financial Success</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-slate-600">
+                My comprehensive service cycle ensures every aspect of your organization's financial health is managed with precision, from daily transactions to high-level strategic planning.
+            </p>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+                <div class="text-center w-48">
+                    <div class="text-4xl mb-2">①</div>
+                    <h3 class="font-bold text-lg text-[#003F5C]">Meticulous Record Keeping</h3>
+                </div>
+                <div class="text-2xl text-slate-300 transform md:rotate-0 rotate-90">&rarr;</div>
+                <div class="text-center w-48">
+                    <div class="text-4xl mb-2">②</div>
+                    <h3 class="font-bold text-lg text-[#374C80]">Insightful Reporting</h3>
+                </div>
+                <div class="text-2xl text-slate-300 transform md:rotate-0 rotate-90">&rarr;</div>
+                 <div class="text-center w-48">
+                    <div class="text-4xl mb-2">③</div>
+                    <h3 class="font-bold text-lg text-[#7A5195]">Strategic Analysis</h3>
+                </div>
+                <div class="text-2xl text-slate-300 transform md:rotate-0 rotate-90">&rarr;</div>
+                <div class="text-center w-48">
+                    <div class="text-4xl mb-2">④</div>
+                    <h3 class="font-bold text-lg text-[#BC5090]">Process Optimization</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="non-profit-impact" class="mb-16 md:mb-24">
+            <h2 class="text-3xl font-bold text-center mb-4 text-slate-800">Proven Impact for Non-Profits</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-slate-600">
+                Empowering mission-driven organizations with fiscal discipline and strategic financial management. The following results are from my work with <span class="font-semibold text-[#003F5C]">Help Kikwit</span>, a 501(c)(3).
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                <div class="md:col-span-3 bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Revenue Growth (2023 vs. 2024)</h3>
+                    <p class="text-sm text-slate-500 mb-4">Strategic financial oversight contributed to a significant increase in total revenue, enabling expanded program delivery.</p>
+                    <div class="chart-container">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+                <div class="md:col-span-2 bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Asset Growth (2023-2024)</h3>
+                     <p class="text-sm text-slate-500 mb-4">Effective cash management and financial planning led to a dramatic increase in cash reserves.</p>
+                     <div class="flex items-center justify-center h-full pb-16">
+                         <div class="text-center">
+                            <div class="text-7xl font-extrabold text-[#FFA600] tracking-tight">191%</div>
+                            <div class="text-lg font-semibold text-slate-800">Increase in Cash & Equivalents</div>
+                         </div>
+                     </div>
+                </div>
+                 <div class="md:col-span-2 bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">2024 Expense Allocation</h3>
+                    <p class="text-sm text-slate-500 mb-4">Demonstrating exceptional fiscal responsibility with a high ratio of program-to-administrative spending.</p>
+                    <div class="chart-container">
+                        <canvas id="expenseDonutChart"></canvas>
+                    </div>
+                </div>
+                <div class="md:col-span-3 bg-[#003F5C] text-white rounded-xl shadow-md p-8 flex flex-col justify-center">
+                    <blockquote class="text-xl italic border-l-4 border-[#FFA600] pl-6">
+                        "It has been a blessing to work almost flawlessly with Gustave. His inquisitiveness to find information previously unknown to him has secured the exemption of our nonprofit. Gustave will be an asset to whoever intends to use his services in the not-for-profit sector."
+                    </blockquote>
+                    <cite class="mt-4 text-right not-italic">
+                        <span class="font-bold">Dr. Jean-Pierre Bongila, President</span><br>
+                        Help Kikwit (from a letter of recommendation)
+                    </cite>
+                </div>
+            </div>
+        </section>
+        
+        <section id="for-profit-success" class="mb-16 md:mb-24">
+            <h2 class="text-3xl font-bold text-center mb-4 text-slate-800">Driving For-Profit Success</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-slate-600">
+                Leveraging deep financial analysis and process improvement to boost efficiency and support strategic growth in competitive corporate environments.
+            </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Measurable Process Improvements</h3>
+                     <p class="text-sm text-slate-500 mb-4">Identified and eliminated bottlenecks in financial reporting systems, leading to significant time savings and enhanced data accuracy.</p>
+                    <div class="chart-container">
+                        <canvas id="improvementChart"></canvas>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">Integrated Career Journey: Finance & Data</h3>
+                    <p class="text-sm text-slate-500 mb-6">A diverse career path showcasing strong foundations in financial analysis, strategic reporting, and robust data engineering.</p>
+                     <div class="space-y-4">
+                         <div class="flex items-center">
+                            <div class="bg-[#BC5090] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xs">2024</div>
+                            <p class="ml-4 font-medium">BI Engineer/Data Engineer at <span class="font-bold">Optum</span> - Develops and maintains data pipelines, builds Power BI reports.</p>
+                        </div>
+                         <div class="flex items-center">
+                            <div class="bg-[#EF5675] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xs">2023</div>
+                            <p class="ml-4 font-medium">Data Science Associate at <span class="font-bold">Optum</span> - Conducted data cleaning, feature engineering, managed RCM analytics platform.</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-[#003F5C] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xs">2023</div>
+                            <p class="ml-4 font-medium">Sr. Financial Analyst at <span class="font-bold">Trystar</span> - Supported sales & marketing with robust financial models.</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-[#7A5195] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xs">2021</div>
+                            <p class="ml-4 font-medium">Lead Financial Analyst at <span class="font-bold">Blu Dot</span> - Managed KPI dashboards using Tableau.</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-[#374C80] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xs">2019</div>
+                            <p class="ml-4 font-medium">Sr. Financial Analyst at <span class="font-bold">Best Buy</span> - Drove revenue growth analysis and forecasting.</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-[#FFA600] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xs">2011</div>
+                            <p class="ml-4 font-medium">Financial Analyst at <span class="font-bold">Robins Kaplan L.L.P</span> - Led team to cut report processing time by 50%.</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="bg-white rounded-2xl shadow-lg p-12 my-16 md:my-24">
+            <div class="text-center">
+                <h2 class="text-4xl font-extrabold text-slate-800">Ready for Financial Clarity?</h2>
+                <p class="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
+                    Let's discuss how my expertise can be tailored to meet your organization's unique financial goals. Reach out today for a consultation.
+                </p>
+                <div class="mt-8 flex justify-center items-center gap-x-8 gap-y-4 flex-wrap">
+                    <a href="tel:612-423-5584" class="text-lg font-semibold text-[#003F5C] hover:text-[#7A5195] transition-colors">📞 (612) 423-5584</a>
+                    <a href="mailto:Mutombofinance@gmail.com" class="text-lg font-semibold text-[#003F5C] hover:text-[#7A5195] transition-colors">📧 Mutombofinance@gmail.com</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center p-6 bg-slate-100">
+        <p class="text-sm text-slate-500">&copy; 2025 Gustave Mutombo | Financial Services</p>
+    </footer>
+
+    <script>
+        function wrapLabels(label, maxWidth) {
+            const words = label.split(' ');
+            let lines = [];
+            let currentLine = words[0];
+
+            for (let i = 1; i < words.length; i++) {
+                if ((currentLine + ' ' + words[i]).length > maxWidth) {
+                    lines.push(currentLine);
+                    currentLine = words[i];
+                } else {
+                    currentLine += ' ' + words[i];
+                }
+            }
+            lines.push(currentLine);
+            return lines;
+        }
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            } else {
+              return label;
+            }
+        };
+
+        const chartColors = {
+            blue: '#003F5C',
+            purple: '#7A5195',
+            pink: '#EF5675',
+            orange: '#FFA600',
+            lightBlue: '#374C80',
+            magenta: '#BC5090'
+        };
+
+        const defaultChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        font: {
+                            family: 'Inter',
+                            size: 12
+                        },
+                        color: '#475569'
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    backgroundColor: '#1E293B',
+                    titleFont: { family: 'Inter', size: 14, weight: 'bold' },
+                    bodyFont: { family: 'Inter', size: 12 },
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: '#475569',
+                        font: { family: 'Inter' }
+                    },
+                    grid: {
+                        color: '#E2E8F0'
+                    }
+                },
+                x: {
+                    ticks: {
+                        color: '#475569',
+                        font: { family: 'Inter' }
+                    },
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        };
+
+        if (document.getElementById('revenueChart')) {
+            new Chart(document.getElementById('revenueChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['2023 Revenue', '2024 Revenue'],
+                    datasets: [{
+                        label: 'Total Revenue ($)',
+                        data: [82026, 102899],
+                        backgroundColor: [chartColors.blue, chartColors.purple],
+                        borderColor: [chartColors.blue, chartColors.purple],
+                        borderWidth: 1,
+                        borderRadius: 5
+                    }]
+                },
+                options: defaultChartOptions
+            });
+        }
+        
+        if (document.getElementById('expenseDonutChart')) {
+            new Chart(document.getElementById('expenseDonutChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Program Expenses', 'Administrative Expenses'],
+                    datasets: [{
+                        label: 'Expense Allocation',
+                        data: [52326, 5455],
+                        backgroundColor: [chartColors.purple, chartColors.pink],
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                             labels: { font: { family: 'Inter' }, color: '#475569' }
+                        },
+                         tooltip: {
+                            callbacks: { title: tooltipTitleCallback },
+                             backgroundColor: '#1E293B'
+                        }
+                    }
+                }
+            });
+        }
+        
+        if (document.getElementById('improvementChart')) {
+            new Chart(document.getElementById('improvementChart'), {
+                type: 'bar',
+                data: {
+                    labels: [wrapLabels('Financial Reporting Time Reduction (Law Firm)', 20), wrapLabels('Invoice Processing System Improvement (Auditing)', 20)],
+                    datasets: [{
+                        label: 'Processing Time Reduction (%)',
+                        data: [50, 15],
+                        backgroundColor: [chartColors.blue, chartColors.purple],
+                        borderColor: [chartColors.blue, chartColors.purple],
+                        borderWidth: 1,
+                        borderRadius: 5,
+                        maxBarThickness: 80
+                    }]
+                },
+                 options: defaultChartOptions
+            });
+        }
+    </script>
+</body>
+</html>
